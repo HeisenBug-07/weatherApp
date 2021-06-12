@@ -6,6 +6,8 @@ const forcast = require("./utils/forcast");
 
 const app = express();
 
+const port = process.env.PORT || 3000;
+
 // addresses of respective directories
 const staticDir = path.join(__dirname, "../static");
 const partialPath = path.join(__dirname, "../views/partials");
@@ -45,6 +47,6 @@ app.get("*", (req, res) => {
   res.render("404");
 });
 
-app.listen(3000, () => {
-  console.log("dat mf is fcuking");
+app.listen(port, () => {
+  console.log("chakra sage mode activate");
 });

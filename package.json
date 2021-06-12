@@ -4,7 +4,7 @@
   "description": "weather application for rendring weather",
   "main": "source/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node source/app.js"
   },
   "author": "budg",
   "license": "ISC",
