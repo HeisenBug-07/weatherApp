@@ -9,6 +9,7 @@ form.addEventListener("submit", (e) => {
   msg1.textContent = "loading...";
   msg2.textContent = "";
   const location = search.value;
+  //fetching data
   fetch(`http://localhost:3000/weather?search=${location}`).then((response) => {
     response.json().then((data) => {
       if (data.error) {
