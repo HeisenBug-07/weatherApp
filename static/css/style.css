@@ -1,0 +1,102 @@
+body {
+  min-height: 100vh;
+  max-width: 600px;
+  padding-top: 50px;
+  margin: 0 auto;
+  color: #333333;
+  font-family: arial;
+  background: rgba(241, 250, 157, 0.555);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.main {
+  text-align: center;
+  background: rgb(177, 204, 236);
+  margin-top: 0;
+  padding-top: 1px;
+  height: 480px;
+}
+.main-content {
+  margin: 0;
+  padding: 1px 10px;
+  background: rgb(255, 255, 255);
+}
+.heading {
+  color: rgba(0, 35, 68, 0.623);
+  text-shadow: 2px 0 rgba(255, 255, 255, 0.623);
+  font-size: 3rem;
+}
+.not-found {
+  font-size: 5rem;
+  text-shadow: 3px 0 rgba(0, 51, 99, 0.623);
+}
+.main-not-found {
+  background: rgb(255, 255, 255);
+}
+img .not-found {
+  width: 30px;
+  height: 50px;
+}
+form {
+  margin: 50px;
+}
+input {
+  padding: 15px 32px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  background-color: rgba(0, 51, 99, 0.623);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.msg1,
+.msg2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 0 40px;
+}
+.error {
+  color: #f8481c;
+}
+.success {
+  color: #0063b4;
+}
+footer {
+  color: #575757;
+  border-top: 1px solid #b1b0b0;
+  margin-top: 16px;
+}
